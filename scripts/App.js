@@ -22,8 +22,6 @@ export default class App extends Component {
     this.setState({ 
       activity : getAllactivities[Math.floor(Math.random()*getAllactivities.length)]
     });
-
-    console.log(this.state.activity);
   }
 
   render() {
